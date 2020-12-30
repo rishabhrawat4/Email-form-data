@@ -29,4 +29,4 @@ app.post('/get-post', function (req, res) {
 });
 
 const port = process.env.PORT || 3000;
-app.listen(PORT);
+app.listen(port);
